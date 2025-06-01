@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  cursor: pointer;
+  overflow-x: hidden;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #1e1e1e;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  top: -70px;
+  position: relative;
+}
+.spacer {
+  flex: 1;
+}
+.nav-links a {
+  text-decoration: none;
+  color: aquamarine;
+  font-size: 18px;
+  margin-right: 120px;
+  position: relative;
+  position: fixed;
+  top: 40px;
+  left: 1120px;
+}
+.under {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: -150px;
+  position: relative;
+}
+
+.under h1 {
+  font-size: 70px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.under h1 {
+  animation: blink 2s infinite;
+}
+.site{
+    width: 100%;
+    height: 100px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: -60px;
+    position: relative;
+}
+.site h4 {
+  font-size: 24px;
+  color: white;
+  margin: 0;
+  top: -240px;
+  position: relative;
+  letter-spacing: 3px;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.progress-bar {
+  width: 100%;
+  height: 25px;
+  background-color: #444;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+  top: -250px;
+  position: relative;
+}
+.percentage {
+  font-size: 24px;
+  margin-bottom: 20px;
+  top: -250px;
+  position: relative;
+}
+.button  {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  top: 10px;
+  position: relative;
+  background-color: aquamarine;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: blue;
+  color: black;
+}
+.progress-bar {
+  width: 100%;
+  height: 25px;
+  background-color: #444;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background-color: aquamarine;
+  transition: width 0.3s;
+}
+.facebook-link {
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 50px;
+  top: -200px;
+  position: relative;
+  margin-left: 20px;
+}
+.instagram-link {
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 50px;
+  top: -200px;
+  position: relative;
+  margin-left: 15px;
+}
+.twitter-link {
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 50px;
+  top: -200px;
+  position: relative;
+  margin-left: 20px;
+}
+.linkedin-link {
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 50px;
+  top: -200px;
+  position: relative;
+  margin-left: 10px;
+}
+.footer {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  top: -250px;
+  position: relative;
+}
+.sidebar{
+  width: 45%;
+  height: 620px;
+  background-color: aquamarine;
+  margin-left:743px;
+  top: -960px;
+  position: relative;
+}
+ .fa-times{
+  margin-left: 580px;
+  position: relative;
+}
+.thefirst{
+  width: 100%;
+  height: 100px;
+  top: 250px;
+  position: relative;
+  font-size: 30px;
+  color: black;
+}
+.signup{
+  width: 100%;
+  height: 100px;
+  top: 250px;
+  position: relative;
+  color: black;
+}
+.form{
+  width: 100%;
+  height: 100px;
+  top: 200px;
+  position: relative;
+}
+.form input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: blue;
+}
+form input:hover{
+  background-color: black;
+  color: white;
+}
+.form label {
+  color: black;
+}
+.subscribe {
+  color: black;
+}
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #304458;
+}
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #007bff;
+  margin-left: 90px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .logo {
+    position: static;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: -400px;
+    margin-top: -80px;
+  }
+
+  .nav-links a {
+    position: static;
+    margin: 10px 0;
+    font-size: 16px;
+    left: auto;
+    margin-left: 430px;
+    top: -60px;
+    position: relative;
+  }
+
+  .under {
+    height: auto;
+    padding: 20px;
+    top: -50px;
+    position: relative;
+  }
+
+  .under h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+
+  .site h4 {
+    font-size: 18px;
+    top: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 10px;
+    top: 0;
+  }
+
+  .progress-bar {
+    height: 20px;
+    margin: 15px 0;
+    top: 0;
+  }
+
+  .percentage {
+    font-size: 20px;
+    top: 0;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-top: 10px;
+  }
+
+  .facebook-link,
+  .instagram-link,
+  .twitter-link,
+  .linkedin-link {
+    font-size: 36px;
+    top: 20px;
+    margin-left: 10px;
+    position: relative;
+  }
+
+  .footer p{
+    font-size: 12px;
+    top: 0;
+    padding: 10px 0;
+  }
+
+  .sidebar {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    top: 0;
+    padding: 20px;
+  }
+
+  .fa-times {
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+    margin-left: 440px;
+    top: -20px;
+    position: relative;
+  }
+
+  .thefirst,
+  .signup,
+  .form {
+    top: 0;
+    height: auto;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .form input {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  input[type="checkbox"] {
+    margin-left: -250px;
+    margin-right: -205px;
+  }
+}
